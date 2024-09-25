@@ -1,7 +1,8 @@
+import { Card } from "./components/Card/Card";
 function App() {
   return (
-    <div className="App">
-      <h1 className="bg-yellow-300 text-gray-950">Hello React + Tailwind</h1>
+    <div className="App flex items-center justify-center bg-slate-950 min-h-screen">
+      <Card title="Counter" />
     </div>
   );
 }
